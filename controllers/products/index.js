@@ -7,12 +7,12 @@ class Items {
         }
     }
 
-    async getAll() {
+    async getAll(req, res, next) {
         try{
             const items = JSON.parse(fs.readFileSync(this.route, 'utf-8'));
-            return items;
+            res.send(items);
     } catch(error){
-        console.log(error);
+        res.send(error);
     }};
 
     async getById (req, res, next) {

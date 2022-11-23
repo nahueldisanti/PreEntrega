@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "timestamp": "new Date()",
+    "nombre": "Cuchillo Cocina",
+    "descripcion": "Cuchillo para cocina profesional",
+    "codigo": 1554484654,
+    "foto":"www.fotosdecocina.com/cocinaCuchillo.jpg",
+    "precio": 15654,
+    "stock":20
+  },
+  {
+    "id": 2,
+    "timestamp": "new Date()",
+    "nombre": "heladera",
+    "descripcion": "Heladera con freezer pro",
+    "codigo": 465687987,
+    "foto":"www.fotosdecocina.com/heladeraConFreezer.jpg",
+    "precio": 200650,
+    "stock":20
+  }
+]
