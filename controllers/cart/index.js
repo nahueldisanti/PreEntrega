@@ -113,7 +113,7 @@ class Carts {
                 if(foundItem === undefined){
                     res.send(`Producto con el id:${id} no encontrado`)
                 }else{ 
-                    cartProducts.push(foundItem);
+                    cartProducts.productos.splice(indexProduct,1);
                     await fs.writeFile(this.route, JSON.stringify(cart));
                     res.send(`El product con id: ${id} ha sido agregado exitosamente al carrito con id ${id_carrito}`);
                 }
